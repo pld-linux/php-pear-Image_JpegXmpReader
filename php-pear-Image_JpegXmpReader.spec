@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Read Photoshop-style XMP metadata from JPEG files
 Summary(pl.UTF-8):	%{_pearname} - odczyt metadanych XMP z plików JPEG
 Name:		php-pear-%{_pearname}
-Version:	0.5.0
+Version:	0.5.1
 Release:	1
 License:	MIT License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e5ff542af6714e846df234e135528d21
+# Source0-md5:	098dc489c341f42f4c8c1274d295a094
 URL:		http://pear.php.net/package/Image_JpegXmpReader/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
