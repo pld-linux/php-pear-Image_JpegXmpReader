@@ -14,6 +14,7 @@ URL:		http://pear.php.net/package/Image_JpegXmpReader/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear-Image_JpegMarkerReader
 Requires:	php-pear-PEAR >= 1.4.0
 Requires:	php-pear-XML_Parser
