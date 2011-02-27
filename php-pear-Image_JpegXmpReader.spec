@@ -1,22 +1,22 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Image_JpegXmpReader
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Read Photoshop-style XMP metadata from JPEG files
 Summary(pl.UTF-8):	%{_pearname} - odczyt metadanych XMP z plików JPEG
 Name:		php-pear-%{_pearname}
 Version:	0.5.3
-Release:	1
+Release:	2
 License:	MIT License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	b5d1c7b26276a8863087ba2fc93f4e44
 URL:		http://pear.php.net/package/Image_JpegXmpReader/
-BuildRequires:	php-pear-PEAR
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
+Requires:	php-pear
 Requires:	php-pear-Image_JpegMarkerReader
-Requires:	php-pear-PEAR >= 1.4.0
+Requires:	php-pear-PEAR-core >= 1.4.0
 Requires:	php-pear-XML_Parser
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
