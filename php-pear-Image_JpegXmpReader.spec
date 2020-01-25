@@ -1,6 +1,5 @@
 %define		_status		beta
 %define		_pearname	Image_JpegXmpReader
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Read Photoshop-style XMP metadata from JPEG files
 Summary(pl.UTF-8):	%{_pearname} - odczyt metadanych XMP z plików JPEG
 Name:		php-pear-%{_pearname}
